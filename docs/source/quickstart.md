@@ -78,6 +78,9 @@ func main() {
 	fmt.Printf("district: %s\n", results.District)
 	fmt.Printf("asn: %s\n", results.Asn)
 	fmt.Printf("as: %s\n", results.As)
+	fmt.Printf("asdomain: %s\n", results.Asdomain)
+	fmt.Printf("asusagetype: %s\n", results.Asusagetype)
+	fmt.Printf("ascidr: %s\n", results.Ascidr)
 	fmt.Printf("api version: %s\n", ip2location.Api_version())
 	
 	db.Close()
